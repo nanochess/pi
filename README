@@ -20,9 +20,9 @@ Use this command line:
   nasm -f bin pi.asm -Dcom_file=0 -o pi.img
 
 Tested with VirtualBox for Mac OS X running Windows XP running this
-game, it also works with DosBox and probably with qemu:
+program, it also works with DosBox and probably with qemu:
 
-  qemu-system-x86_64 -fda invaders.img
+  qemu-system-x86_64 -fda pi.img
 
 Enjoy it!
 
